@@ -1,0 +1,11 @@
+path: ../dataset
+train: images/train
+val: images/val
+test: images/test
+
+# 클래스의 수와 클래스 이름 정의
+names:
+  0: "Center-circle"
+  1: "Paint"
+  2: "basketball-court"
+  3: "three point line"
