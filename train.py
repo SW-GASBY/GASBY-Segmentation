@@ -1,17 +1,21 @@
+import torch
 from ultralytics import YOLO
 
-# YOLOv8 모델 불러오기(s3에 저장된 최신의 모델을 사용하면 됨)
-# model/yolo_model_latest.pt 뭐 이런식으로 저장되어있으면 YOLO('model/yolo_model_latest.pt') 이렇게 사용하면 됨
-model = YOLO('yolov8n-seg.pt')
+# 학습에 gpu사용
+device = 'cuda:1' if torch.cuda.is_available() else 'cpu'
+print(f'Using device: {device}')
+
+# YOLOv8n-1280 모델 불러오기
+model = YOLO('yolov8n-seg.pt').to(device)  # YOLOv8n 모델 사용
 
 # 데이터셋 경로 설정 (YOLO 형식으로 구성된 데이터셋)
-# 람다에서 엔드포인트에 요청이 오면 데이터셋을 s3에서 다운받고 해당 경로를 넣어주면 됨
 data_path = 'data.yaml'
 
 # 학습 설정
 epochs = 200
 batch_size = 16
 img_size = 640
+
 
 # 모델 학습
 results = model.train(

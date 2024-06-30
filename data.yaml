@@ -1,6 +1,5 @@
-path: ../dataset
 train: images/train
-val: images/val
+val: images/valid
 test: images/test
 
 # 클래스의 수와 클래스 이름 정의
