@@ -9,7 +9,7 @@ device = 'cuda:1' if torch.cuda.is_available() else 'cpu'
 print(f'Using device: {device}')
 
 # 모델 로드
-model = YOLO('runs/segment/custom_yolov8_model2/weights/best.pt').to(device)
+model = YOLO('resources/weights/best.pt').to(device)
 
 # 비디오 경로 설정
 video_path = 'resources/test_video.mp4'
