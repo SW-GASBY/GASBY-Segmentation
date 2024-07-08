@@ -162,3 +162,7 @@ cython_debug/
 #.idea/
 
 runs/
+
+output/
+
+.DS_Store
