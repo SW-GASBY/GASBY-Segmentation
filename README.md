@@ -44,13 +44,13 @@ SEGMENTATION 학습 모델
 Download Dataset
 curl -L "https://universe.roboflow.com/ds/Lfc4sBMGVv?key=xEm9XM3JwC" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip
 
-** 라벨 종류 **
+**라벨 종류**
 Basketball-court : 농구코트 영역 (1342개)
 three point line : 3점 라인 내부 영역 (1293개)
 paint : 페인트존(골 밑) (776개)
 center-circle : 중앙 원 (507개)
 
-** Fine tuning Parameters **
+**Fine tuning Parameters**
 학습 데이터 : 1362장
 모델 : YOLOv8m-seg
 에포크 : 300
