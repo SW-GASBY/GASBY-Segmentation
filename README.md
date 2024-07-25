@@ -30,7 +30,7 @@ BING 서비스는 최신 생성 AI 알고리즘을 사용하여 실시간으로 
 
 | Profile | Name | Role |
 | :---: | :---: | :---: |
-| <a href="https://github.com/wooing1084"><img src="https://avatars.githubusercontent.com/u/24919880?v=4(https://avatars.githubusercontent.com/u/32007781?v=4)" height="120px"></a> | SungHoon Jung <br> **wooing1084**| <br> Training YOLOv8-seg MODEL <br> GPT|
+| <a href="https://github.com/wooing1084"><img src="https://avatars.githubusercontent.com/u/32007781?v=4" height="120px"></a> | SungHoon Jung <br> **wooing1084**| <br> Training YOLOv8-seg MODEL <br> GPT|
 
 
 <br>
