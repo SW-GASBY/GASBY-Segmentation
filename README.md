@@ -24,7 +24,7 @@ SEGMENTATION 학습 모델
 
 <div align="center">
 
-<h3> SERVICE part Team members </h3>
+<h3> MODEL part Team members </h3>
 
 | Profile | Name | Role |
 | :---: | :---: | :---: |
